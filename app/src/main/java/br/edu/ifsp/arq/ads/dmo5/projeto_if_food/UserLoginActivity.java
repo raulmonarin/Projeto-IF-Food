@@ -75,9 +75,9 @@ public class UserLoginActivity extends AppCompatActivity {
     }
 
     private void setBtnEnter() {
-        txtEmail = findViewById(R.id.txt_inp_email);
-        txtPassword = findViewById(R.id.txt_inp_reg_senha);
-        btnEnter = findViewById(R.id.btn_login);
+        txtEmail = findViewById(R.id.txt_edt_email);
+        txtPassword = findViewById(R.id.txt_edt_password);
+        btnEnter = findViewById(R.id.btn_login_user);
         btnEnter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -100,7 +100,7 @@ public class UserLoginActivity extends AppCompatActivity {
     }
 
     private void setBtnRegister() {
-        btnRegister = findViewById(R.id.btn_user_register);
+        btnRegister = findViewById(R.id.btn_login_new_user);
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

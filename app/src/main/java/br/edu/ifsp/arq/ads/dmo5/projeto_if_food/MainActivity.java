@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         setToolBar();
         setDrawerLayout();
         setNavigationView();
+        setTextLogin();
     }
 
     private void setTextLogin() {
@@ -64,6 +65,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
 
     private void setNavigationView() {
         navigationView = findViewById(R.id.nav_view);

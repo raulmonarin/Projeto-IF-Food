@@ -18,45 +18,42 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:hint="E-mail">
-
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="@string/txt_layout_email">
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txt_inp_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/txt_edt_email"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
-        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:hint="Password">
-
+        android:hint="@string/txt_layout_password">
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txt_inp_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/txt_edt_password"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_login"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:text="@string/txt_btn_login" />
+        android:id="@+id/btn_login_user"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/btn_login_enter"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
 
     <TextView
         android:layout_width="match_parent"
@@ -97,5 +94,4 @@
             android:textAllCaps="false" />
 
     </LinearLayout>
-
 </LinearLayout>
