@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">IF-Fuud</string>
+    <string name="txt_edt_email">E-Mail</string>
+    <string name="txt_edt_senha">Senha</string>
+    <string name="txt_btn_login">Entrar</string>
+    <string name="txt_enter">Entrar</string>
+
+    <string name="toggle_abre">Abrir</string>
+    <string name="toggle_fecha">Fechar</string>
+
+    <string name="perfil_titulo">Perfil</string>
+    <string name="cardapio_titulo">Cardapio</string>
+    <string name="pagamento_titulo">Pagamento</string>
+
+    <string name="txt_principal_atividade">Principal Atividade</string>
+    <string name="txt_ultimas_atividades">Últimas Atividades</string>
+    <!-- Tela Cadastro de Atividades -->
+    <string name="txt_layout_data">Data</string>
+    <string name="txt_layout_duration">Duração (min)</string>
+    <string name="txt_layout_distance">Distância (Km)</string>
+    <string name="txt_title_new_activity">Nova Atividade</string>
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_account">Minha Conta</string>
+    <string name="menu_new_activity">Nova Atividade</string>
+    <string name="menu_statistics">Estatísticas</string>
+    <string name="menu_ranking">Classificação</string>
+    <string name="menu_logout">Sair</string>
+    <string name="toggle_open">Abrir</string>
+    <string name="toggle_close">Fechar</string>
+    <!-- Tela de Cadastro de Usuário -->
+    <string name="txt_layout_email">E-mail</string>
+    <string name="txt_layout_password">Senha</string>
+    <string name="btn_cadastrar">CADASTRAR</string>
+    <string name="txt_title_new_user">Novo Usuário</string>
+    <!-- Tela de Login de Usuário -->
+    <string name="btn_login_enter">Entrar</string>
+    <string name="txt_forgot_password">Esqueceu sua senha?</string>
+    <string name="txt_no_account">Não tem cadastro?</string>
+    <string name="txt_title_login">Login</string>
+    <!-- Tela de Perfil de Usuário -->
+    <string name="txt_layout_name">Nome</string>
+    <string name="txt_layout_surname">Sobrenome</string>
+    <string name="txt_layout_address">Logradouro</string>
+    <string name="txt_layout_number">Número</string>
+    <string name="txt_layout_complement">Complemento</string>
+    <string name="txt_layout_district">Bairro</string>
+    <string name="txt_layout_city">Cidade</string>
+    <string name="txt_layout_zipecode">CEP</string>
+    <string name="btn_profile_update">Atualizar</string>
+    <string name="txt_title_profile">Perfil</string>
+    <string name="msg_login">Usuário e/ou senha inválidos!</string>
+    <string name="msg_success_profile">Perfil do usuário atualizado com sucesso!</string>
+    <string name="settings_title">Configurações</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="txt_birthDate">Data de Nascimento</string>
+    <string name="txt_phone">Telefone</string>
+    <string name="msg_erro_password">A senha tem que possuir no mínimo 6 caracteres.</string>
+    <string name="txt_email">E-mail</string>
+    <string name="btn_ok_resetar_senha">Enviar</string>
+    <string name="btn_cancel_resetar_senha">Cancelar</string>
+    <string name="title_dialog_resetar_senha">Resetar Senha</string>
+    <string name="msg_resetar_email">Verifique seu e-mail para resetar a senha.</string>
+    <string name="txt_title_edit_activity">Edição de Atividade</string>
+    <string name="menu_my_activities">Minhas Atividades</string>
+    <string name="btn_activity_register_save">SALVAR</string>
+
+
+
+    <array name="Funcao">
+        <item>Você é: </item>
+        <item>Professor</item>
+        <item>Aluno</item>
+        <item>Funcionario</item>
+    </array>
+
+    <array name="Pagamentos">
+        <item>Dinheiro </item>
+        <item>Cartão de Crédito</item>
+        <item>Cartão de Débito</item>
+        <item>Pix</item>
+    </array>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82160410880",
+    "project_id": "iffood-d25bf",
+    "storage_bucket": "iffood-d25bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82160410880:android:50cb0b0459f65bbec093e5",
+        "android_client_info": {
+          "package_name": "br.edu.ifsp.arq.ads.dmo5.projeto_if_food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82160410880-9mjp4s4llrvcbdks5fffif4n183v8a4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgmLtMb-owh9jxu1RjxjDys2A_pR-_9M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82160410880-9mjp4s4llrvcbdks5fffif4n183v8a4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
